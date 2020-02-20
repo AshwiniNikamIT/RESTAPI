@@ -1,6 +1,9 @@
 package apiJava;
-import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.FormParam;
+import javax.ws.rs.POST;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.*;
 @Path("/db")
 public class userLogin {
 
@@ -19,10 +22,7 @@ public class userLogin {
 			System.out.println("Login Successfully");
 			return Name;
 		}
-			
-		
-		
-		
+					
 		
 	
 	
